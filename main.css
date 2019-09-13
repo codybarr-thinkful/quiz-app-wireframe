@@ -1,0 +1,34 @@
+main {
+	width: 100%;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+main#start,
+main#end {
+	text-align: center;
+}
+
+article {
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid black;
+}
+
+form.correct .correct {
+	border: 1px solid limegreen;
+}
+
+.answer.incorrect {
+	border: 1px solid firebrick;
+	color: firebrick;
+}
+
+.answer.correct {
+	color: limegreen;
+}
